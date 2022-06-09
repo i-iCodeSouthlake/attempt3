@@ -45,6 +45,14 @@
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "a8fb0a7l2ub",
@@ -60,7 +68,9 @@
 			"TiledBackground2",
 			"Sprite4",
 			"Sprite5",
-			"Sprite6"
+			"Sprite6",
+			"Sprite7",
+			"TiledBackground3"
 		],
 		"subfolders": []
 	},
