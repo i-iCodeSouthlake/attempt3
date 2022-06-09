@@ -7,6 +7,35 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Sprite8",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 428,
+						"y": 240.5,
+						"width": 854,
+						"height": 481,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.146543886314592,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite6",
 					"properties": {
 						"initially-visible": true,
@@ -17,12 +46,24 @@
 					},
 					"uid": 12,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "smooth",
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 723,
-						"y": 267,
-						"width": 207,
-						"height": 139,
+						"x": 267,
+						"y": 251,
+						"width": 246,
+						"height": 189,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -32,6 +73,35 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite9",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 50,
+						"y": 454,
+						"width": 327.99993515306164,
+						"height": 183.01043285635305,
+						"originX": 0.47058823529411764,
+						"originY": 0.44881889763779526,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.5470342467622054,
 						"zElevation": 0
 					}
 				}
