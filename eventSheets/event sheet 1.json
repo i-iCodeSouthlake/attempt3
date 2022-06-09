@@ -5,12 +5,13 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
+					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 204290426039510,
+					"sid": 300858668391095,
 					"parameters": {
 						"mouse-button": "left",
-						"click-type": "clicked"
+						"click-type": "clicked",
+						"object-clicked": "Sprite2"
 					}
 				}
 			],
@@ -25,6 +26,12 @@
 				}
 			],
 			"sid": 741176092981309
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 107681305513452
 		}
 	],
 	"sid": 283102067829420
