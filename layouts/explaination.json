@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "explaination",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground",
+					"type": "TiledBackground2",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -19,14 +19,14 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 3,
+					"uid": 9,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 854,
-						"height": 480,
+						"x": -85,
+						"y": -91,
+						"width": 1019,
+						"height": 728,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -40,24 +40,37 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "Text",
 					"properties": {
+						"text": "      Welcome to serenity. You might think this is an odd name for a game where most would rage. You are Correct! Serenity is named as it is because it is the opposite of what you will feel playing this. Haha. Try to enjoy through the rage!",
+						"enable-bbcode": true,
+						"font": "Big Caslon",
+						"size": 41,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
-					"uid": 6,
+					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 184,
-						"y": 118,
-						"width": 324.8399999999999,
-						"height": 202.84328358208984,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 42,
+						"y": 5,
+						"width": 798,
+						"height": 526,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -69,7 +82,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -77,43 +90,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 8,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 185,
-						"y": 110,
-						"width": 283.8399999999999,
-						"height": 153.84328358208984,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 10,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 197,
-						"y": 302,
-						"width": 190,
-						"height": 89,
+						"x": 775,
+						"y": 445,
+						"width": 156,
+						"height": 70,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -127,7 +111,7 @@
 					}
 				}
 			],
-			"sid": 582331475751572,
+			"sid": 642355012219940,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -156,7 +140,7 @@
 			"global": false
 		}
 	],
-	"sid": 850418181974292,
+	"sid": 773097900621507,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -165,5 +149,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Event sheet 2"
 }

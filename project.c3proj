@@ -56,7 +56,9 @@
 			"Mouse",
 			"Sprite3",
 			"Text",
-			"Sprite"
+			"Sprite",
+			"TiledBackground2",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
@@ -69,14 +71,16 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-			"Layout 2"
+			"explaination",
+			"play"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Event sheet 3"
 		],
 		"subfolders": []
 	},
