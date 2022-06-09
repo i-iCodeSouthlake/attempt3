@@ -58,7 +58,8 @@
 			"Text",
 			"Sprite",
 			"TiledBackground2",
-			"Sprite4"
+			"Sprite4",
+			"Sprite5"
 		],
 		"subfolders": []
 	},
