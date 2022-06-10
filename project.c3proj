@@ -97,7 +97,8 @@
 			"Sprite14",
 			"Text3",
 			"Sprite16",
-			"Text4"
+			"Text4",
+			"atakCreature"
 		],
 		"subfolders": []
 	},
