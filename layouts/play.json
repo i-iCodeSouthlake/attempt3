@@ -125,9 +125,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 441.4699460277628,
-						"y": 127.51059133106854,
-						"width": 812.1110543801559,
+						"x": 490.8814011573876,
+						"y": 127.19216553138448,
+						"width": 712.0809096209134,
 						"height": 227.97991976985793,
 						"originX": 0.4939759036144578,
 						"originY": 0.49193548387096775,
@@ -173,9 +173,9 @@
 				{
 					"type": "Text2",
 					"properties": {
-						"text": "text one",
+						"text": "Hello player, I am your tutorial person you can only see this once so look closely. You are a Saikarie, as you are quite Young you cannot fly yet. You will try to survive as long as possible but you will face many challenges, they will question your ability to Fight, Flee, or heal.",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Monaco",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -196,8 +196,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 226,
-						"y": 40,
+						"x": 225,
+						"y": 46,
 						"width": 527,
 						"height": 174,
 						"originX": 0,
