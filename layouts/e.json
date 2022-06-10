@@ -1,5 +1,5 @@
 {
-	"name": "Layout 2",
+	"name": "E",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite7",
+					"type": "Sprite17",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 13,
+					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 431,
-						"y": 231,
-						"width": 852.88,
-						"height": 479.44,
+						"x": 360,
+						"y": 248,
+						"width": 1361,
+						"height": 505,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -34,38 +34,9 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Sprite13",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 740,
-						"y": 421,
-						"width": 183,
-						"height": 92,
-						"originX": 0.4644808743169399,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.279146556925846,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 112821631511331,
+			"sid": 645347811901141,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -94,7 +65,7 @@
 			"global": false
 		}
 	],
-	"sid": 998919288073318,
+	"sid": 872555980589600,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -103,5 +74,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 4"
+	"eventSheet": "Event sheet 1"
 }

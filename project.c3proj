@@ -97,7 +97,13 @@
 			"Sprite14",
 			"Text3",
 			"Sprite16",
-			"Text4"
+			"Text4",
+<<<<<<< HEAD
+			"TiledBackground3",
+			"Sprite17"
+=======
+			"atakCreature"
+>>>>>>> 6a61eb13929ef8fc71416d4deec1bce5ef06f119
 		],
 		"subfolders": []
 	},
@@ -112,7 +118,8 @@
 			"start page",
 			"explaination",
 			"play",
-			"Layout 2"
+			"Layout 2",
+			"E"
 		],
 		"subfolders": []
 	},
@@ -121,7 +128,8 @@
 			"startpage",
 			"explaination",
 			"play",
-			"Event sheet 4"
+			"Event sheet 4",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},

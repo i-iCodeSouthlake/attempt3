@@ -19,9 +19,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 813902955591258,
+					"sid": 301434401740131,
 					"parameters": {
-						"layout": "start page"
+						"layout": "E"
 					}
 				}
 			],

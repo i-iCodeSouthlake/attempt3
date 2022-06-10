@@ -285,6 +285,29 @@
 				}
 			],
 			"sid": 459259291683002
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 383496741876133,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "atakCreature"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "atakCreature",
+					"sid": 268767665203181
+				}
+			],
+			"sid": 522157775491249
 		}
 	],
 	"sid": 150319674910884
