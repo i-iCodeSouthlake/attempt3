@@ -3,7 +3,13 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 458870532631658
+				}
+			],
 			"actions": [],
 			"sid": 328157108232853
 		}
