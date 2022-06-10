@@ -7,7 +7,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 299861681101997,
+					"sid": 357129468935215,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -19,13 +19,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 813902955591258,
+					"sid": 821220950287365,
 					"parameters": {
 						"layout": "start page"
 					}
 				}
 			],
-			"sid": 832963370859353
+			"sid": 446367763823010
 		}
 	],
 	"sid": 567669570553139
