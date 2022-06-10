@@ -60,8 +60,8 @@
 						}
 					},
 					"world": {
-						"x": 583,
-						"y": 270,
+						"x": 678,
+						"y": 387,
 						"width": 246,
 						"height": 189,
 						"originX": 0.5,
@@ -109,6 +109,35 @@
 							1
 						],
 						"angle": 6.2655927466445975,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite15",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 321,
+						"y": 131,
+						"width": 574,
+						"height": 192,
+						"originX": 0.4939759036144578,
+						"originY": 0.49193548387096775,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.135148370763242,
 						"zElevation": 0
 					}
 				},
