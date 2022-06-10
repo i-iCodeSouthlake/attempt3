@@ -15,70 +15,14 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Sprite15",
-					"sid": 409605140602002,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Text2",
-					"sid": 811407399532241,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Sprite14",
-					"sid": 697525938823185,
-					"parameters": {
-						"visibility": "visible"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 328157108232853
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 895083071182132
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Sprite15",
-					"sid": 985893129949310,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Text2",
-					"sid": 339049660596163,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Sprite14",
-					"sid": 344077259292562,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 806946666329030
+			"conditions": [],
+			"actions": [],
+			"sid": 649787107671618
 		}
 	],
 	"sid": 150319674910884
