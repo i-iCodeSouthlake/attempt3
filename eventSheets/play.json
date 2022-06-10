@@ -88,7 +88,15 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Sprite16",
-					"sid": 520882570245048,
+					"sid": 715946814951925,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text4",
+					"sid": 874780786511869,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -135,7 +143,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Sprite16",
-					"sid": 679045275949967,
+					"sid": 204348679276963,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -189,6 +197,94 @@
 				}
 			],
 			"sid": 633555382924034
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 241878631812110,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite6",
+					"sid": 194939448211447,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 150283864323106
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 685265147463511,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite6",
+					"sid": 311622086843381,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 124666902963807
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 736920072495088,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Text4",
+					"sid": 709873604815104,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 430109875355108,
+					"parameters": {
+						"seconds": "5.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text4",
+					"sid": 412339351824870,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 459259291683002
 		}
 	],
 	"sid": 150319674910884
