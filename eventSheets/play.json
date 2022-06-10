@@ -23,6 +23,22 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text2",
+					"sid": 811407399532241,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite14",
+					"sid": 697525938823185,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 328157108232853
@@ -41,6 +57,22 @@
 					"id": "set-visible",
 					"objectClass": "Sprite15",
 					"sid": 985893129949310,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text2",
+					"sid": 339049660596163,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite14",
+					"sid": 344077259292562,
 					"parameters": {
 						"visibility": "invisible"
 					}
