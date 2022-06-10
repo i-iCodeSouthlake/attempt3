@@ -15,8 +15,38 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite15",
+					"sid": 409605140602002,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
 			"sid": 328157108232853
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 895083071182132
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite15",
+					"sid": 985893129949310,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 806946666329030
 		}
 	],
 	"sid": 150319674910884
