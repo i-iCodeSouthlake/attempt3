@@ -173,9 +173,9 @@
 				{
 					"type": "Text2",
 					"properties": {
-						"text": "Hello player, I am your tutorial person you can only see this once so look closely. You are a Saikarie, as you are quite Young you cannot fly yet. You will try to survive as long as possible but you will face many challenges, they will question your ability to Fight, Flee, or heal.",
+						"text": "Hello player, I am your tutorial person you can only see this once so look closely. You are a Saikarie, a majestic creature that looks like a purple ninetails, with wings and a mask of course. You will try to survive as long as possible but you will face many challenges, they will question your ability to Fight, Flee, or heal.",
 						"enable-bbcode": true,
-						"font": "Monaco",
+						"font": "fantasy",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -231,6 +231,48 @@
 						"height": 68,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text3",
+					"properties": {
+						"text": "To walk, use arrow keys and while you are quite young, you cannot yet spread your wings and soar around. Use the space button to Attack mobs. Good Luck!",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 224,
+						"y": 43,
+						"width": 524,
+						"height": 161,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

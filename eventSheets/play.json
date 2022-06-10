@@ -23,6 +23,22 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text2",
+					"sid": 848639261488027,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite14",
+					"sid": 531441759844777,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 328157108232853
@@ -44,9 +60,72 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text2",
+					"sid": 273016955700636,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text3",
+					"sid": 508382352639617,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite14",
+					"sid": 556303917851073,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 806946666329030
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 437529839470954,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite14"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Text2",
+					"sid": 417979670623508,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Text3",
+					"sid": 846054653944186,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Sprite14",
+					"sid": 742942133750289
+				}
+			],
+			"sid": 607400324876454
 		}
 	],
 	"sid": 150319674910884
