@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "a8fb0a7l2ub",

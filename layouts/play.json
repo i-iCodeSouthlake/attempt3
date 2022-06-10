@@ -87,14 +87,21 @@
 					},
 					"uid": 15,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 135,
-						"y": 447,
-						"width": 327.99993515306164,
-						"height": 183.01043285635305,
-						"originX": 0.47058823529411764,
-						"originY": 0.44881889763779526,
+						"x": 122,
+						"y": 439,
+						"width": 257.71423476311986,
+						"height": 146.98475709722842,
+						"originX": 0.5989304812834224,
+						"originY": 0.5588235294117647,
 						"color": [
 							1,
 							1,
@@ -118,8 +125,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 590,
-						"y": 139,
+						"x": 124,
+						"y": 137,
 						"width": 248,
 						"height": 274,
 						"originX": 0.5,
