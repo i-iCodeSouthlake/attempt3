@@ -152,7 +152,18 @@
 					},
 					"uid": 16,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 5,
+								"wait-time": 5,
+								"fade-out-time": 5,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 124,
 						"y": 137,
