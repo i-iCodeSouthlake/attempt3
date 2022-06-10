@@ -1,5 +1,12 @@
 {
 	"name": "Event sheet 3",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 328157108232853
+		}
+	],
 	"sid": 150319674910884
 }
