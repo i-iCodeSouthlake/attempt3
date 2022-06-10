@@ -1,35 +1,29 @@
 {
-	"name": "Sprite6",
+	"name": "waterLevels4",
 	"plugin-id": "Sprite",
-	"sid": 298400976120313,
+	"sid": 163398784155732,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 926837701325540
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 2048,
-						"height": 1483,
+						"width": 1224,
+						"height": 1787,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3486072,
+						"imageSpriteId": 3385575,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 813694189734279,
+				"sid": 210730749012054,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

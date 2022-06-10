@@ -2,6 +2,16 @@
 	"name": "play",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "waterLevels",
+			"type": "number",
+			"initialValue": "100",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 548032759722601
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -100,6 +110,54 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "foodLevels",
+					"sid": 450326868883002,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels",
+					"sid": 786210101901815,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "foodLevels2",
+					"sid": 367101305595732,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "foodLevels3",
+					"sid": 864425802863525,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "foodLevels4",
+					"sid": 397227545285095,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "foodLevels5",
+					"sid": 101632587719063,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 806946666329030
@@ -193,6 +251,22 @@
 					"sid": 811205525632636,
 					"parameters": {
 						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "foodLevels",
+					"sid": 652657099376306,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels",
+					"sid": 504753781583453,
+					"parameters": {
+						"visibility": "visible"
 					}
 				}
 			],
@@ -290,6 +364,7 @@
 			"eventType": "block",
 			"conditions": [
 				{
+<<<<<<< Updated upstream
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 383496741876133,
@@ -297,17 +372,377 @@
 						"mouse-button": "left",
 						"click-type": "clicked",
 						"object-clicked": "atakCreature"
+=======
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 617400099262644
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 586478629484862,
+					"parameters": {
+						"seconds": "25.0"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 487212289936131,
+					"parameters": {
+						"variable": "waterLevels",
+						"value": "25"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 793368629188099,
+					"parameters": {
+						"seconds": "25.0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 441058756058799,
+					"parameters": {
+						"seconds": "25.0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 681130275057408,
+					"parameters": {
+						"seconds": "25.0"
+					}
+				}
+			],
+			"sid": 468987941880101
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 464478193453736,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 557855027043628,
+					"parameters": {
+						"key": 69
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 536850549250117,
+					"parameters": {
+						"variable": "waterLevels",
+						"value": "100"
+					}
+				}
+			],
+			"sid": 444020861277977
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 170035102103717,
+					"parameters": {
+						"variable": "waterLevels",
+						"comparison": 0,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels2",
+					"sid": 872767401598579,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels",
+					"sid": 175589868764341,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 208993806492550,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 685392390396548,
+							"parameters": {
+								"interval-seconds": "25"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 772284107986914,
+							"parameters": {
+								"variable": "waterLevels",
+								"value": "20"
+							}
+						}
+					],
+					"sid": 663592520624730
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 226639171451183,
+					"parameters": {
+						"variable": "waterLevels",
+						"comparison": 0,
+						"value": "75"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels3",
+					"sid": 686939084637495,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels2",
+					"sid": 308301027168813,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 117379411885911,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 199577162966941,
+							"parameters": {
+								"interval-seconds": "25"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 201416177755779,
+							"parameters": {
+								"variable": "waterLevels",
+								"value": "20"
+							}
+						}
+					],
+					"sid": 711505976847230
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 836329065789222,
+					"parameters": {
+						"variable": "waterLevels",
+						"comparison": 0,
+						"value": "50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels4",
+					"sid": 269905047117751,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels3",
+					"sid": 125162215547935,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 508286586239353,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 754954253238159,
+							"parameters": {
+								"interval-seconds": "25"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 618451746763450,
+							"parameters": {
+								"variable": "waterLevels",
+								"value": "20"
+							}
+						}
+					],
+					"sid": 362474400910967
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 195384453921312,
+					"parameters": {
+						"variable": "waterLevels",
+						"comparison": 0,
+						"value": "25"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels5",
+					"sid": 343709569565893,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterLevels4",
+					"sid": 789506272611077,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 256705833413513,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 615799390318122,
+							"parameters": {
+								"interval-seconds": "25"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 170301140839254,
+							"parameters": {
+								"variable": "waterLevels",
+								"value": "20"
+							}
+						}
+					],
+					"sid": 549458427346290
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 255152323129179,
+					"parameters": {
+						"variable": "waterLevels",
+						"comparison": 0,
+						"value": "0"
+>>>>>>> Stashed changes
+					}
+				}
+			],
+			"actions": [
+				{
+<<<<<<< Updated upstream
 					"id": "destroy",
 					"objectClass": "atakCreature",
 					"sid": 268767665203181
 				}
 			],
 			"sid": 522157775491249
+=======
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 685048038179730,
+					"parameters": {
+						"seconds": "42.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 993914884037220,
+					"parameters": {
+						"layout": "start page"
+					}
+				}
+			],
+			"sid": 648237283454567
+>>>>>>> Stashed changes
 		}
 	],
 	"sid": 150319674910884

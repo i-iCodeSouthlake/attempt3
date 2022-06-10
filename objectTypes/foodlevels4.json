@@ -1,35 +1,29 @@
 {
-	"name": "Sprite6",
+	"name": "foodLevels4",
 	"plugin-id": "Sprite",
-	"sid": 298400976120313,
+	"sid": 495872053152958,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 926837701325540
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 2048,
-						"height": 1483,
+						"width": 1000,
+						"height": 1080,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3486072,
+						"imageSpriteId": 7702904,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 813694189734279,
+				"sid": 618875158390127,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

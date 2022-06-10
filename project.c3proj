@@ -61,14 +61,6 @@
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Fade",
-			"name": "Fade",
-			"author": "Scirra",
-			"version": "r293.3",
-			"bundled": false
 		}
 	],
 	"uniqueId": "a8fb0a7l2ub",
@@ -98,8 +90,22 @@
 			"Text3",
 			"Sprite16",
 			"Text4",
+<<<<<<< Updated upstream
 			"atakCreature",
 			"RICKROLL_music"
+=======
+			"Sprite17",
+			"waterLevels",
+			"foodLevels",
+			"foodLevels2",
+			"foodLevels3",
+			"foodLevels4",
+			"foodLevels5",
+			"waterLevels2",
+			"waterLevels3",
+			"waterLevels4",
+			"waterLevels5"
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},

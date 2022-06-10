@@ -1,7 +1,11 @@
 {
 	"name": "Sprite17",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 831632117512423,
+=======
+	"sid": 718409108931524,
+>>>>>>> Stashed changes
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,13 +15,19 @@
 			{
 				"frames": [
 					{
+<<<<<<< Updated upstream
 						"width": 640,
 						"height": 640,
+=======
+						"width": 250,
+						"height": 250,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 3218779,
 						"collisionPoly": {
 							"points": [
@@ -1063,10 +1073,14 @@
 								0.5
 							]
 						},
+=======
+						"imageSpriteId": 7334737,
+>>>>>>> Stashed changes
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 378039631668226,
 				"name": "Animation 1",
 				"isLooping": true,
@@ -1074,6 +1088,15 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 50
+=======
+				"sid": 345020854530480,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+>>>>>>> Stashed changes
 			}
 		],
 		"subfolders": []
