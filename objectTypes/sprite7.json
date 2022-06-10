@@ -1038,10 +1038,10 @@
 				"sid": 487249488559455,
 				"name": "Animation 1",
 				"isLooping": true,
-				"isPingPong": true,
+				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 50
+				"speed": 10
 			}
 		],
 		"subfolders": []

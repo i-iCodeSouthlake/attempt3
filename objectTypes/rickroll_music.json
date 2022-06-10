@@ -1,35 +1,29 @@
 {
-	"name": "Sprite6",
+	"name": "RICKROLL_music",
 	"plugin-id": "Sprite",
-	"sid": 298400976120313,
+	"sid": 561846905435174,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 926837701325540
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 2048,
-						"height": 1483,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2557422,
+						"imageSpriteId": 7005478,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 813694189734279,
+				"sid": 670640864604153,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

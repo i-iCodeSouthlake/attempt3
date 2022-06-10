@@ -98,12 +98,8 @@
 			"Text3",
 			"Sprite16",
 			"Text4",
-<<<<<<< HEAD
-			"TiledBackground3",
-			"Sprite17"
-=======
-			"atakCreature"
->>>>>>> 6a61eb13929ef8fc71416d4deec1bce5ef06f119
+			"atakCreature",
+			"RICKROLL_music"
 		],
 		"subfolders": []
 	},
@@ -118,8 +114,7 @@
 			"start page",
 			"explaination",
 			"play",
-			"Layout 2",
-			"E"
+			"Layout 2"
 		],
 		"subfolders": []
 	},
@@ -128,8 +123,7 @@
 			"startpage",
 			"explaination",
 			"play",
-			"Event sheet 4",
-			"Event sheet 1"
+			"Event sheet 4"
 		],
 		"subfolders": []
 	},
@@ -139,7 +133,24 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Rick Astley - Never Gonna Give You Up (Official Music Video).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 292318578621199,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Rick Astley - Never Gonna Give You Up (Official Music Video) (1).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 693440513287451,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
