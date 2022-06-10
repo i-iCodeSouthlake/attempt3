@@ -2,7 +2,11 @@
 	"name": "Sprite17",
 	"plugin-id": "Sprite",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"sid": 831632117512423,
+=======
+	"sid": 718409108931524,
+>>>>>>> Stashed changes
 =======
 	"sid": 718409108931524,
 >>>>>>> Stashed changes
@@ -16,8 +20,13 @@
 				"frames": [
 					{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"width": 640,
 						"height": 640,
+=======
+						"width": 250,
+						"height": 250,
+>>>>>>> Stashed changes
 =======
 						"width": 250,
 						"height": 250,
@@ -27,6 +36,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 						"imageSpriteId": 3218779,
 						"collisionPoly": {
@@ -1076,10 +1086,14 @@
 =======
 						"imageSpriteId": 7334737,
 >>>>>>> Stashed changes
+=======
+						"imageSpriteId": 7334737,
+>>>>>>> Stashed changes
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				"sid": 378039631668226,
 				"name": "Animation 1",
@@ -1089,6 +1103,8 @@
 				"repeatTo": 0,
 				"speed": 50
 =======
+=======
+>>>>>>> Stashed changes
 				"sid": 345020854530480,
 				"name": "Animation 1",
 				"isLooping": false,
@@ -1096,6 +1112,9 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			}
 		],

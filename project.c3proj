@@ -91,9 +91,12 @@
 			"Sprite16",
 			"Text4",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"atakCreature",
 			"RICKROLL_music"
 =======
+=======
+>>>>>>> Stashed changes
 			"Sprite17",
 			"waterLevels",
 			"foodLevels",
@@ -105,6 +108,9 @@
 			"waterLevels3",
 			"waterLevels4",
 			"waterLevels5"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		],
 		"subfolders": []

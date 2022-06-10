@@ -365,6 +365,7 @@
 			"conditions": [
 				{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 383496741876133,
@@ -373,6 +374,8 @@
 						"click-type": "clicked",
 						"object-clicked": "atakCreature"
 =======
+=======
+>>>>>>> Stashed changes
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 617400099262644
@@ -711,12 +714,16 @@
 						"variable": "waterLevels",
 						"comparison": 0,
 						"value": "0"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 					}
 				}
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 					"id": "destroy",
 					"objectClass": "atakCreature",
@@ -725,6 +732,8 @@
 			],
 			"sid": 522157775491249
 =======
+=======
+>>>>>>> Stashed changes
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 685048038179730,
@@ -742,6 +751,9 @@
 				}
 			],
 			"sid": 648237283454567
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		}
 	],
