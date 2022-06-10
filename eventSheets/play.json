@@ -5,9 +5,14 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 458870532631658
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 622300978955615,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite11"
+					}
 				}
 			],
 			"actions": [],
