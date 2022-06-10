@@ -86,7 +86,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
+			"start page",
 			"explaination",
 			"play",
 			"Layout 2"
@@ -95,9 +95,9 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
-			"Event sheet 2",
-			"Event sheet 3",
+			"startpage",
+			"explaination",
+			"play",
 			"Event sheet 4"
 		],
 		"subfolders": []
